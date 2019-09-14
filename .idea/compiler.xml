@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qg-common-dto" />
+        <module name="qg-common-module" />
+        <module name="qg-common-service" />
+        <module name="qg-common-utils" />
+        <module name="qg-user-consumer" />
+        <module name="qg-user-provider" />
+        <module name="test" />
+        <module name="user-common" />
+        <module name="user-comsumer" />
+        <module name="user-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qg-common-dto" target="1.7" />
+      <module name="qg-common-module" target="1.7" />
+      <module name="qg-common-parent" target="1.7" />
+      <module name="qg-common-service" target="1.7" />
+      <module name="qg-common-utils" target="1.7" />
+      <module name="qg-user-consumer" target="1.8" />
+      <module name="qg-user-provider" target="1.8" />
+      <module name="test" target="1.7" />
+      <module name="user-common" target="1.7" />
+      <module name="user-comsumer" target="1.8" />
+      <module name="user-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
